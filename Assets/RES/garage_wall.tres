@@ -1,0 +1,8 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://cki2gv44g6kvj"]
+
+[resource]
+resource_name = "colormap.035"
+albedo_color = Color(0.157053, 0.251647, 0.332764, 1)
+metallic = 0.5
+texture_filter = 1
+texture_repeat = false

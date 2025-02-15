@@ -1,0 +1,52 @@
+[gd_scene load_steps=6 format=3 uid="uid://d2oyx56q3x35i"]
+
+[ext_resource type="Script" path="res://Code/Scripts/Look/sun_rotate.gd" id="1_rcye2"]
+[ext_resource type="Texture2D" uid="uid://dbspjh5ckwp00" path="res://Assets/HDRI/cambridge_4k.hdr" id="2_yl3ii"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_otphs"]
+panorama = ExtResource("2_yl3ii")
+
+[sub_resource type="Sky" id="Sky_jwhj6"]
+sky_material = SubResource("PanoramaSkyMaterial_otphs")
+
+[sub_resource type="Environment" id="Environment_arpls"]
+background_mode = 2
+background_energy_multiplier = 0.5
+sky = SubResource("Sky_jwhj6")
+tonemap_mode = 3
+tonemap_exposure = 0.74
+ssr_enabled = true
+ssao_enabled = true
+ssil_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
+fog_enabled = true
+fog_light_color = Color(0.550078, 0.62913, 0.76963, 1)
+fog_sun_scatter = 0.91
+fog_density = 0.069
+fog_sky_affect = 0.075
+volumetric_fog_density = 0.012
+volumetric_fog_albedo = Color(0.484911, 0.520554, 0.535687, 1)
+volumetric_fog_anisotropy = 0.5
+
+[node name="Look" type="Node3D" node_paths=PackedStringArray("start_position", "end_position")]
+script = ExtResource("1_rcye2")
+start_position = NodePath("start")
+end_position = NodePath("end")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.999999, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6.47367, 0)
+shadow_enabled = true
+
+[node name="RayCast3D" type="RayCast3D" parent="DirectionalLight3D"]
+target_position = Vector3(0, 0, -1)
+debug_shape_thickness = 5
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_arpls")
+
+[node name="start" type="Marker3D" parent="."]
+transform = Transform3D(-0.34202, -0.939693, -4.10753e-08, 0, -4.37114e-08, 1, -0.939693, 0.34202, 1.49502e-08, -8, 0, 0)
+
+[node name="end" type="Marker3D" parent="."]
+transform = Transform3D(0.173648, 8.60946e-08, -0.984808, 0, -1, -8.74228e-08, -0.984808, 1.51808e-08, -0.173648, 8, 0, 0)

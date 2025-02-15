@@ -1,0 +1,241 @@
+[gd_scene load_steps=80 format=3 uid="uid://bp1wbu8kf0qr4"]
+
+[ext_resource type="PackedScene" uid="uid://cktxcralma2s5" path="res://Assets/Meshes/OutsideBuilding/barricade-doorway-a.glb" id="1_8v6o7"]
+[ext_resource type="PackedScene" uid="uid://deeolrdgvq80k" path="res://Assets/Meshes/OutsideBuilding/barricade-doorway-b.glb" id="2_b8mta"]
+[ext_resource type="PackedScene" uid="uid://t8b2sixtmssd" path="res://Assets/Meshes/OutsideBuilding/barricade-doorway-c.glb" id="3_ejiat"]
+[ext_resource type="PackedScene" uid="uid://hj0jlv1t5vjs" path="res://Assets/Meshes/OutsideBuilding/barricade-window-a.glb" id="4_8x3oa"]
+[ext_resource type="PackedScene" uid="uid://k51jsxoda6wt" path="res://Assets/Meshes/OutsideBuilding/barricade-window-b.glb" id="5_us2lv"]
+[ext_resource type="PackedScene" uid="uid://sqy6r7h1om34" path="res://Assets/Meshes/OutsideBuilding/barricade-window-c.glb" id="6_ln2vw"]
+[ext_resource type="PackedScene" uid="uid://csiyefylg44u6" path="res://Assets/Meshes/OutsideBuilding/border-corner-diagonal.glb" id="7_xcw1g"]
+[ext_resource type="PackedScene" uid="uid://u0x3wglbyxp3" path="res://Assets/Meshes/OutsideBuilding/border-corner-round.glb" id="8_205te"]
+[ext_resource type="PackedScene" uid="uid://1v1te3nkgs7d" path="res://Assets/Meshes/OutsideBuilding/border-corner-small.glb" id="9_5qvfs"]
+[ext_resource type="PackedScene" uid="uid://c0aex5w5422mr" path="res://Assets/Meshes/OutsideBuilding/border-corner.glb" id="10_k443a"]
+[ext_resource type="PackedScene" uid="uid://bxm73eij355nl" path="res://Assets/Meshes/OutsideBuilding/border-high-corner-diagonal.glb" id="11_ud3f2"]
+[ext_resource type="PackedScene" uid="uid://cfriwvyhhnvmp" path="res://Assets/Meshes/OutsideBuilding/border-high-corner-round.glb" id="12_u0yka"]
+[ext_resource type="PackedScene" uid="uid://d2inr23lely7i" path="res://Assets/Meshes/OutsideBuilding/border-high-corner-small.glb" id="13_k2y2q"]
+[ext_resource type="PackedScene" uid="uid://d3xnn0nod7fvq" path="res://Assets/Meshes/OutsideBuilding/border-high-corner.glb" id="14_a0r60"]
+[ext_resource type="PackedScene" uid="uid://cjpj8kdd6mapq" path="res://Assets/Meshes/OutsideBuilding/border-high.glb" id="15_prok4"]
+[ext_resource type="PackedScene" uid="uid://c1limkrn8mnx2" path="res://Assets/Meshes/OutsideBuilding/border.glb" id="16_dbmwb"]
+[ext_resource type="PackedScene" uid="uid://dfth6700o42vt" path="res://Assets/Meshes/OutsideBuilding/column-thin.glb" id="17_slnqj"]
+[ext_resource type="PackedScene" uid="uid://mxw0jwwgo1mc" path="res://Assets/Meshes/OutsideBuilding/column-wide.glb" id="18_2eplp"]
+[ext_resource type="PackedScene" uid="uid://cttndn4v5pvcw" path="res://Assets/Meshes/OutsideBuilding/column.glb" id="19_n8vd1"]
+[ext_resource type="PackedScene" uid="uid://cpubyybn6s0vy" path="res://Assets/Meshes/OutsideBuilding/detail-pipe.glb" id="20_04pjf"]
+[ext_resource type="PackedScene" uid="uid://ct5w3axt6ptr7" path="res://Assets/Meshes/OutsideBuilding/door-rotate-round-a.glb" id="21_vy7b7"]
+[ext_resource type="PackedScene" uid="uid://b7jmgpk0pesjf" path="res://Assets/Meshes/OutsideBuilding/door-rotate-round-b.glb" id="22_ysbkw"]
+[ext_resource type="PackedScene" uid="uid://cftr0tcl5onrr" path="res://Assets/Meshes/OutsideBuilding/door-rotate-round-c.glb" id="23_5klry"]
+[ext_resource type="PackedScene" uid="uid://d2ph2jjf7qls7" path="res://Assets/Meshes/OutsideBuilding/door-rotate-round-d.glb" id="24_4mbme"]
+[ext_resource type="PackedScene" uid="uid://6x24g58bghwh" path="res://Assets/Meshes/OutsideBuilding/door-rotate-square-a.glb" id="25_mvx6f"]
+[ext_resource type="PackedScene" uid="uid://brnrrunwnqtb1" path="res://Assets/Meshes/OutsideBuilding/door-rotate-square-b.glb" id="26_2tyel"]
+[ext_resource type="PackedScene" uid="uid://bg7sup3cwt51m" path="res://Assets/Meshes/OutsideBuilding/door-rotate-square-c.glb" id="27_2pdap"]
+[ext_resource type="PackedScene" uid="uid://dw3ee6q8qa24e" path="res://Assets/Meshes/OutsideBuilding/door-rotate-square-d.glb" id="28_vl7xn"]
+[ext_resource type="PackedScene" uid="uid://b8jxpnyex8upa" path="res://Assets/Meshes/OutsideBuilding/floor-corner-diagonal.glb" id="29_s3bc4"]
+[ext_resource type="PackedScene" uid="uid://es86gehxy0md" path="res://Assets/Meshes/OutsideBuilding/floor-corner-round.glb" id="30_xdik1"]
+[ext_resource type="PackedScene" uid="uid://btl2gbar61kcd" path="res://Assets/Meshes/OutsideBuilding/floor-half.glb" id="31_t85qj"]
+[ext_resource type="PackedScene" uid="uid://dhmtg1ywbuw37" path="res://Assets/Meshes/OutsideBuilding/floor-quarter.glb" id="32_jtabx"]
+[ext_resource type="PackedScene" uid="uid://bdgr5prera5gu" path="res://Assets/Meshes/OutsideBuilding/floor.glb" id="33_v8xjq"]
+[ext_resource type="PackedScene" uid="uid://cs06ov2utx84m" path="res://Assets/Meshes/OutsideBuilding/gutter-vertical-bottom.glb" id="34_3hwqy"]
+[ext_resource type="PackedScene" uid="uid://bmc4swgwwlxfy" path="res://Assets/Meshes/OutsideBuilding/gutter-vertical-short.glb" id="35_w683t"]
+[ext_resource type="PackedScene" uid="uid://bxh7680b1adfo" path="res://Assets/Meshes/OutsideBuilding/gutter-vertical-top.glb" id="36_wt802"]
+[ext_resource type="PackedScene" uid="uid://2eqq4fgeqnwj" path="res://Assets/Meshes/OutsideBuilding/gutter-vertical-wall.glb" id="37_b3yho"]
+[ext_resource type="PackedScene" uid="uid://cqfi8w2p57r0l" path="res://Assets/Meshes/OutsideBuilding/gutter-vertical.glb" id="38_bku84"]
+[ext_resource type="PackedScene" uid="uid://4hwtgst4een3" path="res://Assets/Meshes/OutsideBuilding/plating-detailed-wide.glb" id="39_lt4xg"]
+[ext_resource type="PackedScene" uid="uid://pdj8nhmmhqcm" path="res://Assets/Meshes/OutsideBuilding/plating-detailed.glb" id="40_ix7ts"]
+[ext_resource type="PackedScene" uid="uid://cwpegw0317gp8" path="res://Assets/Meshes/OutsideBuilding/plating-wide.glb" id="41_5innb"]
+[ext_resource type="PackedScene" uid="uid://bdw8ux1vfmoe7" path="res://Assets/Meshes/OutsideBuilding/plating.glb" id="42_l7jiu"]
+[ext_resource type="PackedScene" uid="uid://cq8ovemen0ts7" path="res://Assets/Meshes/OutsideBuilding/roof-flat-center.glb" id="43_tuo25"]
+[ext_resource type="PackedScene" uid="uid://dsg3m64vdfwhf" path="res://Assets/Meshes/OutsideBuilding/roof-flat-corner-inner.glb" id="44_0fl4e"]
+[ext_resource type="PackedScene" uid="uid://bm7840lgj2bed" path="res://Assets/Meshes/OutsideBuilding/roof-flat-corner.glb" id="45_kwnlb"]
+[ext_resource type="PackedScene" uid="uid://pxb20drnsm5y" path="res://Assets/Meshes/OutsideBuilding/roof-flat-patch-large.glb" id="46_n046a"]
+[ext_resource type="PackedScene" uid="uid://cffx2g7jsjkm5" path="res://Assets/Meshes/OutsideBuilding/roof-flat-patch.glb" id="47_oork7"]
+[ext_resource type="PackedScene" uid="uid://2kkgox5ebhij" path="res://Assets/Meshes/OutsideBuilding/roof-flat-side.glb" id="48_e80ye"]
+[ext_resource type="PackedScene" uid="uid://i1ohcaxiwvl6" path="res://Assets/Meshes/OutsideBuilding/roof-flat-square.glb" id="49_hrds1"]
+[ext_resource type="PackedScene" uid="uid://0f1ya0fhppc8" path="res://Assets/Meshes/OutsideBuilding/stairs-center-short.glb" id="50_6o7sk"]
+[ext_resource type="PackedScene" uid="uid://dn82e7022hb7e" path="res://Assets/Meshes/OutsideBuilding/stairs-center.glb" id="51_xvost"]
+[ext_resource type="PackedScene" uid="uid://c6eplhpxqxo3y" path="res://Assets/Meshes/OutsideBuilding/stairs-closed-short.glb" id="52_yq6i2"]
+[ext_resource type="PackedScene" uid="uid://ddfodskrugnjx" path="res://Assets/Meshes/OutsideBuilding/stairs-closed.glb" id="53_j0qdl"]
+[ext_resource type="PackedScene" uid="uid://beivfu4lquaft" path="res://Assets/Meshes/OutsideBuilding/stairs-open-short.glb" id="54_m0tw6"]
+[ext_resource type="PackedScene" uid="uid://bjkj1thgnltbe" path="res://Assets/Meshes/OutsideBuilding/stairs-open.glb" id="55_026mq"]
+[ext_resource type="PackedScene" uid="uid://bvab3kgmt7fkc" path="res://Assets/Meshes/OutsideBuilding/stairs-sides-short.glb" id="56_g5ame"]
+[ext_resource type="PackedScene" uid="uid://dqth7ob5bdg5e" path="res://Assets/Meshes/OutsideBuilding/stairs-sides.glb" id="57_cgtho"]
+[ext_resource type="PackedScene" uid="uid://btdt31kpksu2w" path="res://Assets/Meshes/OutsideBuilding/wall-corner-column-bottom.glb" id="58_poyxy"]
+[ext_resource type="PackedScene" uid="uid://cff0p2obm65xh" path="res://Assets/Meshes/OutsideBuilding/wall-corner-column-small-bottom.glb" id="59_rwtob"]
+[ext_resource type="PackedScene" uid="uid://cqgi4wgx585pn" path="res://Assets/Meshes/OutsideBuilding/wall-corner-column-small.glb" id="60_flg1x"]
+[ext_resource type="PackedScene" uid="uid://c01jqy3bjdpv6" path="res://Assets/Meshes/OutsideBuilding/wall-corner-column.glb" id="61_j2enx"]
+[ext_resource type="PackedScene" uid="uid://bru36i3g2xo7x" path="res://Assets/Meshes/OutsideBuilding/wall-corner-diagonal.glb" id="62_odqwp"]
+[ext_resource type="PackedScene" uid="uid://ddgyvtqxu3db1" path="res://Assets/Meshes/OutsideBuilding/wall-corner-round.glb" id="63_m81bu"]
+[ext_resource type="PackedScene" uid="uid://dph8iarm4ecrc" path="res://Assets/Meshes/OutsideBuilding/wall-corner.glb" id="64_lmogq"]
+[ext_resource type="PackedScene" uid="uid://cmudnui0xq3sa" path="res://Assets/Meshes/OutsideBuilding/wall-doorway-round.glb" id="65_uxbvc"]
+[ext_resource type="PackedScene" uid="uid://cjb5dtv25brb8" path="res://Assets/Meshes/OutsideBuilding/wall-doorway-square.glb" id="66_h3xhh"]
+[ext_resource type="PackedScene" uid="uid://c4mjodr4ycn4b" path="res://Assets/Meshes/OutsideBuilding/wall-doorway-wide-round.glb" id="67_lt8fd"]
+[ext_resource type="PackedScene" uid="uid://dudr4mbyu5bs0" path="res://Assets/Meshes/OutsideBuilding/wall-doorway-wide-square.glb" id="68_g1l30"]
+[ext_resource type="PackedScene" uid="uid://tefpf8pwrqiw" path="res://Assets/Meshes/OutsideBuilding/wall-half.glb" id="69_dykd7"]
+[ext_resource type="PackedScene" uid="uid://q1sec7u248tl" path="res://Assets/Meshes/OutsideBuilding/wall-low.glb" id="70_0ljtv"]
+[ext_resource type="PackedScene" uid="uid://dqocqbravtya5" path="res://Assets/Meshes/OutsideBuilding/wall-window-round-detailed.glb" id="71_ekb11"]
+[ext_resource type="PackedScene" uid="uid://b7av6rwefh7cu" path="res://Assets/Meshes/OutsideBuilding/wall-window-round.glb" id="72_b2dl6"]
+[ext_resource type="PackedScene" uid="uid://csj7y77vej4b8" path="res://Assets/Meshes/OutsideBuilding/wall-window-square-detailed.glb" id="73_fva4j"]
+[ext_resource type="PackedScene" uid="uid://n8nu8p55xvht" path="res://Assets/Meshes/OutsideBuilding/wall-window-square.glb" id="74_qh3ta"]
+[ext_resource type="PackedScene" uid="uid://dt64iaajlvhyh" path="res://Assets/Meshes/OutsideBuilding/wall-window-wide-round-detailed.glb" id="75_mgdx2"]
+[ext_resource type="PackedScene" uid="uid://cdmmna7x2adoj" path="res://Assets/Meshes/OutsideBuilding/wall-window-wide-round.glb" id="76_ugwcl"]
+[ext_resource type="PackedScene" uid="uid://dlcm4vcgsapvv" path="res://Assets/Meshes/OutsideBuilding/wall-window-wide-square-detailed.glb" id="77_8hn3l"]
+[ext_resource type="PackedScene" uid="uid://d0as8keqsusyf" path="res://Assets/Meshes/OutsideBuilding/wall-window-wide-square.glb" id="78_ruueh"]
+[ext_resource type="PackedScene" uid="uid://gxjc3s4iyc6n" path="res://Assets/Meshes/OutsideBuilding/wall.glb" id="79_3e4il"]
+
+[node name="Tiles" type="Node3D"]
+
+[node name="barricade-doorway-a2" parent="." instance=ExtResource("1_8v6o7")]
+
+[node name="barricade-doorway-b2" parent="." instance=ExtResource("2_b8mta")]
+
+[node name="barricade-doorway-c2" parent="." instance=ExtResource("3_ejiat")]
+
+[node name="barricade-window-a2" parent="." instance=ExtResource("4_8x3oa")]
+
+[node name="barricade-window-b2" parent="." instance=ExtResource("5_us2lv")]
+
+[node name="barricade-window-c2" parent="." instance=ExtResource("6_ln2vw")]
+
+[node name="border-corner-diagonal2" parent="." instance=ExtResource("7_xcw1g")]
+
+[node name="border-corner-round2" parent="." instance=ExtResource("8_205te")]
+
+[node name="border-corner-small2" parent="." instance=ExtResource("9_5qvfs")]
+
+[node name="border-corner2" parent="." instance=ExtResource("10_k443a")]
+
+[node name="border-high-corner-diagonal2" parent="." instance=ExtResource("11_ud3f2")]
+
+[node name="border-high-corner-round2" parent="." instance=ExtResource("12_u0yka")]
+
+[node name="border-high-corner-small2" parent="." instance=ExtResource("13_k2y2q")]
+
+[node name="border-high-corner2" parent="." instance=ExtResource("14_a0r60")]
+
+[node name="border-high2" parent="." instance=ExtResource("15_prok4")]
+
+[node name="border2" parent="." instance=ExtResource("16_dbmwb")]
+
+[node name="column-thin2" parent="." instance=ExtResource("17_slnqj")]
+
+[node name="column-wide2" parent="." instance=ExtResource("18_2eplp")]
+
+[node name="column2" parent="." instance=ExtResource("19_n8vd1")]
+
+[node name="detail-pipe2" parent="." instance=ExtResource("20_04pjf")]
+
+[node name="door-rotate-round-a2" parent="." instance=ExtResource("21_vy7b7")]
+
+[node name="door-rotate-round-b2" parent="." instance=ExtResource("22_ysbkw")]
+
+[node name="door-rotate-round-c2" parent="." instance=ExtResource("23_5klry")]
+
+[node name="door-rotate-round-d2" parent="." instance=ExtResource("24_4mbme")]
+
+[node name="door-rotate-square-a2" parent="." instance=ExtResource("25_mvx6f")]
+
+[node name="door-rotate-square-b2" parent="." instance=ExtResource("26_2tyel")]
+
+[node name="door-rotate-square-c2" parent="." instance=ExtResource("27_2pdap")]
+
+[node name="door-rotate-square-d2" parent="." instance=ExtResource("28_vl7xn")]
+
+[node name="floor-corner-diagonal2" parent="." instance=ExtResource("29_s3bc4")]
+
+[node name="floor-corner-round2" parent="." instance=ExtResource("30_xdik1")]
+
+[node name="floor-half2" parent="." instance=ExtResource("31_t85qj")]
+
+[node name="floor-quarter2" parent="." instance=ExtResource("32_jtabx")]
+
+[node name="floor2" parent="." instance=ExtResource("33_v8xjq")]
+
+[node name="gutter-vertical-bottom2" parent="." instance=ExtResource("34_3hwqy")]
+
+[node name="gutter-vertical-short2" parent="." instance=ExtResource("35_w683t")]
+
+[node name="gutter-vertical-top2" parent="." instance=ExtResource("36_wt802")]
+
+[node name="gutter-vertical-wall2" parent="." instance=ExtResource("37_b3yho")]
+
+[node name="gutter-vertical2" parent="." instance=ExtResource("38_bku84")]
+
+[node name="plating-detailed-wide2" parent="." instance=ExtResource("39_lt4xg")]
+
+[node name="plating-detailed2" parent="." instance=ExtResource("40_ix7ts")]
+
+[node name="plating-wide2" parent="." instance=ExtResource("41_5innb")]
+
+[node name="plating2" parent="." instance=ExtResource("42_l7jiu")]
+
+[node name="roof-flat-center2" parent="." instance=ExtResource("43_tuo25")]
+
+[node name="roof-flat-corner-inner2" parent="." instance=ExtResource("44_0fl4e")]
+
+[node name="roof-flat-corner2" parent="." instance=ExtResource("45_kwnlb")]
+
+[node name="roof-flat-patch-large2" parent="." instance=ExtResource("46_n046a")]
+
+[node name="roof-flat-patch2" parent="." instance=ExtResource("47_oork7")]
+
+[node name="roof-flat-side2" parent="." instance=ExtResource("48_e80ye")]
+
+[node name="roof-flat-square2" parent="." instance=ExtResource("49_hrds1")]
+
+[node name="stairs-center-short2" parent="." instance=ExtResource("50_6o7sk")]
+
+[node name="stairs-center2" parent="." instance=ExtResource("51_xvost")]
+
+[node name="stairs-closed-short2" parent="." instance=ExtResource("52_yq6i2")]
+
+[node name="stairs-closed2" parent="." instance=ExtResource("53_j0qdl")]
+
+[node name="stairs-open-short2" parent="." instance=ExtResource("54_m0tw6")]
+
+[node name="stairs-open2" parent="." instance=ExtResource("55_026mq")]
+
+[node name="stairs-sides-short2" parent="." instance=ExtResource("56_g5ame")]
+
+[node name="stairs-sides2" parent="." instance=ExtResource("57_cgtho")]
+
+[node name="wall-corner-column-bottom2" parent="." instance=ExtResource("58_poyxy")]
+
+[node name="wall-corner-column-small-bottom2" parent="." instance=ExtResource("59_rwtob")]
+
+[node name="wall-corner-column-small2" parent="." instance=ExtResource("60_flg1x")]
+
+[node name="wall-corner-column2" parent="." instance=ExtResource("61_j2enx")]
+
+[node name="wall-corner-diagonal2" parent="." instance=ExtResource("62_odqwp")]
+
+[node name="wall-corner-round2" parent="." instance=ExtResource("63_m81bu")]
+
+[node name="wall-corner2" parent="." instance=ExtResource("64_lmogq")]
+
+[node name="wall-doorway-round2" parent="." instance=ExtResource("65_uxbvc")]
+
+[node name="wall-doorway-square2" parent="." instance=ExtResource("66_h3xhh")]
+
+[node name="wall-doorway-wide-round2" parent="." instance=ExtResource("67_lt8fd")]
+
+[node name="wall-doorway-wide-square2" parent="." instance=ExtResource("68_g1l30")]
+
+[node name="wall-half2" parent="." instance=ExtResource("69_dykd7")]
+
+[node name="wall-low2" parent="." instance=ExtResource("70_0ljtv")]
+
+[node name="wall-window-round-detailed2" parent="." instance=ExtResource("71_ekb11")]
+
+[node name="wall-window-round2" parent="." instance=ExtResource("72_b2dl6")]
+
+[node name="wall-window-square-detailed2" parent="." instance=ExtResource("73_fva4j")]
+
+[node name="wall-window-square2" parent="." instance=ExtResource("74_qh3ta")]
+
+[node name="wall-window-wide-round-detailed2" parent="." instance=ExtResource("75_mgdx2")]
+
+[node name="wall-window-wide-round2" parent="." instance=ExtResource("76_ugwcl")]
+
+[node name="wall-window-wide-square-detailed2" parent="." instance=ExtResource("77_8hn3l")]
+
+[node name="wall-window-wide-square2" parent="." instance=ExtResource("78_ruueh")]
+
+[node name="wall2" parent="." instance=ExtResource("79_3e4il")]

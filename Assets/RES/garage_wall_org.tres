@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://d4hpb5wyxtuhm"]
+
+[ext_resource type="Texture2D" uid="uid://8mq8ninutcmg" path="res://Assets/Meshes/GarageShop/Garage_colormap.png" id="1_nrkg4"]
+
+[resource]
+resource_name = "colormap.082"
+cull_mode = 2
+albedo_texture = ExtResource("1_nrkg4")
+texture_filter = 1
