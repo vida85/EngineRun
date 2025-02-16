@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://dgf5l57gs6axt"]
+
+[ext_resource type="PackedScene" uid="uid://dbneysn35tey3" path="res://Scenes/Cars/Beetle/beetle.tscn" id="1_af1q3"]
+[ext_resource type="PackedScene" uid="uid://cd3fgnk3ucy1d" path="res://Scenes/Cars/car.tscn" id="1_rka5l"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_amstt"]
+albedo_color = Color(0.241156, 0.241156, 0.241156, 1)
+
+[node name="test_car" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.93542, -0.397554, -0.537247)
+use_collision = true
+size = Vector3(22.759, 0.34375, 15.984)
+material = SubResource("StandardMaterial3D_amstt")
+
+[node name="Car" parent="." node_paths=PackedStringArray("start_marker", "stop_marker") instance=ExtResource("1_rka5l")]
+car_scene = ExtResource("1_af1q3")
+start_marker = NodePath("../start")
+stop_marker = NodePath("../stop")
+test = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.929274, 0.36939, 0, -0.36939, 0.929274, 0, 2.07009, 5.47161)
+fov = 90.0
+
+[node name="start" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0161, 0, 0)
+
+[node name="stop" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.38378, 0, 0)
