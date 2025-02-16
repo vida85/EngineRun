@@ -7,9 +7,9 @@ var day: bool = true
 
 
 func _ready() -> void:
-    directional_light_3d.global_rotation = start_position.global_rotation
-    
+	directional_light_3d.global_rotation = start_position.global_rotation
+	
 func _process(delta: float) -> void:
-    directional_light_3d.global_rotation = directional_light_3d.global_rotation.lerp(end_position.global_rotation, .02 * delta)
-    
-        
+	directional_light_3d.global_rotation = directional_light_3d.global_rotation.lerp(end_position.global_rotation, .02 * delta)
+	
+		

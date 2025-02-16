@@ -2,8 +2,8 @@ extends Node
 
 
 func _ready() -> void:
-    pass
+	pass
 
 
 func _process(_delta: float) -> void:
-    pass
+	pass
